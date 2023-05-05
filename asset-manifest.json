@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/overwatch-heroes/static/css/main.c05389f4.css",
+    "main.js": "/overwatch-heroes/static/js/main.3df18e15.js",
+    "static/js/787.87c41dc7.chunk.js": "/overwatch-heroes/static/js/787.87c41dc7.chunk.js",
+    "index.html": "/overwatch-heroes/index.html",
+    "main.c05389f4.css.map": "/overwatch-heroes/static/css/main.c05389f4.css.map",
+    "main.3df18e15.js.map": "/overwatch-heroes/static/js/main.3df18e15.js.map",
+    "787.87c41dc7.chunk.js.map": "/overwatch-heroes/static/js/787.87c41dc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c05389f4.css",
+    "static/js/main.3df18e15.js"
+  ]
+}
