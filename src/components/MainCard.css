@@ -1,0 +1,38 @@
+.main-card {
+    background-color: #1B1B1E;
+    color: #D8DBE2;
+    width: 60vw;
+    height: 50vh;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .main-card {
+        flex-direction: column;
+        width: 50vw;
+        height: 80vh;
+    }
+}
+
+@media (max-width:800px) {
+    .main-card {
+        flex-direction: column;
+        width: 90vw;
+        height: 80vh;
+        padding: 2em 0.5em;
+    }
+}
+
+@media (max-height:400px) {
+    .main-card {
+        flex-direction: column;
+        width: 90vw;
+        height: 90vh;
+    }
+}

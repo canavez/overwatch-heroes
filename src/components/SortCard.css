@@ -1,0 +1,108 @@
+.sort-card {
+    width: 35%;
+    height: 80%;
+    margin-left: 2em;
+    border: 1px solid #D8DBE2;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons-role {
+    padding-top: 0em;
+}
+
+.button-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1em;
+}
+
+.button-raffle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1em;
+}
+
+.button-raffle button {
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #D8DBE2;
+    color: #373F51;
+}
+
+.button-raffle button:hover {
+    background-color: #58A4B0;
+}
+
+.text-select {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+@media (max-width:1200px) {
+    .sort-card {
+        width: 80%;
+        height: 40%;
+        margin: 2em;
+        border: 1px solid #D8DBE2;
+        border-radius: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+    }
+}
+
+@media (max-width:800px) {
+    .sort-card {
+        width: 80%;
+        height: 40%;
+        margin: 2em;
+        border: 1px solid #D8DBE2;
+        border-radius: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em;
+    }
+
+    h2 {
+        font-weight: 500;
+        padding-bottom: 0;
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .button-raffle button {
+        font-size: 1em;
+    }
+
+    .button-raffle {
+        padding-top: 0.3em;
+    }
+
+    .button-select {
+        padding-top: 0.3em;
+        font-size: 0.7em;
+    }
+}
